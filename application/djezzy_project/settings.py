@@ -23,7 +23,6 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'djezzy_app',
-    'frontend'
 ]
 
 MIDDLEWARE = [
