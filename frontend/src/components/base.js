@@ -1,12 +1,12 @@
 import React from 'react';
 import './css/style.css';
-import logo from './img/Logo_Djezzy_2015-1.png';
+
 function Base({ children }) {
   return (
     <>
       <header>
         <div className="logo">
-           <img src={logo} alt="Logo Djezzy" />
+           <img src="/Logo_Djezzy_2015-1.png" alt="Logo Djezzy" />
         </div>
         <nav>
           <ul>
@@ -15,7 +15,7 @@ function Base({ children }) {
             <li><a href="/a-propos">A propos</a></li>
             <li><a href="/contact">Contact</a></li>
             <li><a href="/connexion" className="signup-btn">Espace candidat</a></li>
-            <li><a href="/connexionAdmin" className="signup-btn">Espace admin</a></li>
+            <li><a href="/connexion-admin" className="signup-btn">Espace admin</a></li>
           </ul>
         </nav>
       </header>
@@ -52,7 +52,7 @@ function Base({ children }) {
           &copy; 2025 Djezzy Recrutement. Tous droits réservés.
         </div>
       </footer>
-      <script src="/static/js/main.js"></script>
+      {/* <script src="/static/js/main.js"></script> */}
     </>
   );
 }

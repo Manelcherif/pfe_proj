@@ -14,7 +14,7 @@ function Home() {
         </div>
         <div className="hero-image">
           <div className="hero-circle"></div>
-          <img src="/static/img/images_1.jpeg" alt="Professionnel en costume d'affaires" />
+          <img src="/images_1.jpeg" alt="Professionnel en costume d'affaires" />
         </div>
       </section>
 
@@ -95,14 +95,14 @@ function Home() {
           <a href="/connexion" className="contact-btn">Créer mon profil</a>
         </div>
         <div className="custom-recruitment-image">
-          <img src="/static/img/images_2.jpeg" alt="Candidat consultant son profil professionnel" />
+          <img src="/images_2.jpeg" alt="Candidat consultant son profil professionnel" />
         </div>
       </section>
 
       <div className="careers-container">
         <div className="careers-content">
           <div className="careers-image">
-            <img src="/static/img/Lart_de_la_negociation___10_etapes_pour_reussir_votre_transition_professionnelle.jpg" alt="Carrières Djezzy" />
+            <img src="/Lart_de_la_negociation___10_etapes_pour_reussir_votre_transition_professionnelle.jpg" alt="Carrières Djezzy" />
           </div>
           <div className="careers-text">
             <div className="careers-badge">Rejoignez notre équipe</div>

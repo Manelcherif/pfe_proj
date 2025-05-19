@@ -112,7 +112,7 @@ function APropos() {
       <section className="contact-cta">
         <h2>Rejoignez l'équipe Djezzy</h2>
         <p>Nous sommes toujours à la recherche de talents passionnés pour nous aider à construire le futur des télécommunications en Algérie. Découvrez nos opportunités de carrière et faites partie de notre aventure.</p>
-        <a href="offres_d'emploi.html" className="contact-btn">Voir nos offres d'emploi</a>
+        {/* <a href="offres_d'emploi.html" className="contact-btn">Voir nos offres d'emploi</a> */}
 
         <a href="/offres-emploi" className="contact-btn">Voir nos offres d'emploi</a>
       </section>

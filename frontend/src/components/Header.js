@@ -5,7 +5,6 @@ import './css/style.css'; // or a dedicated css for header
 function Header() {
   return (
     <header className="header">
-      <img src="/static/img/Logo_Djezzy_2015-1.png" alt="Djezzy Logo" className="logo" />
       <nav>
         <ul className="nav-links">
           <li><Link to="/">Accueil</Link></li>
